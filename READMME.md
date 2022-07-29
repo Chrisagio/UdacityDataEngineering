@@ -51,7 +51,9 @@ The files contain the following attributes:
 ### Involved files
 
 **1. sql_queries.py:** this file contains all the code to create and drop tables, select and join the artists and songs data, and eventually to insert the values into the individual tables.
+
 **2. create_tables.py:** this file crates (or drops if already existing) the tables.
+
 **3. etl.py: this file** contains the code to access and read the files, transforms the data and eventually executes the INSERT and SELECT statements needed to populate our tables
 
 ### Execution steps
